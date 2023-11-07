@@ -1,0 +1,19 @@
+body{
+    box-sizing: border-box;
+    background-image: url(../img/hearts.jpg);
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    margin-top: 50px;
+}
+.text{
+    font-family: 'Kurale', serif;
+    font-size: 32px;
+}
+/* font-family: 'Kurale', serif;
+font-family: 'Noto Sans Kawi', sans-serif; */
+.photo{
+    width: 200px;
+}
