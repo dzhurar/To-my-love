@@ -1,6 +1,7 @@
 body{
     box-sizing: border-box;
     background-image: url(../img/hearts.jpg);
+    background-color: black;
 }
 .container{
     width: 1200px;
@@ -8,9 +9,18 @@ body{
     padding: 0 15px;
     margin-top: 550px;
 }
+.main{
+    padding-bottom: 100px;
+}
 .text{
     font-family: 'Kurale', serif;
     font-size: 32px;
+    color: rgb(139, 0, 125);
+}
+.jaja{
+    padding: 30px;
+    background-color: pink;
+    box-shadow: 30px 30px 30px 4px rgb(142, 40, 131);
 }
 /* font-family: 'Kurale', serif;
 font-family: 'Noto Sans Kawi', sans-serif; */
@@ -18,14 +28,15 @@ font-family: 'Noto Sans Kawi', sans-serif; */
     width: 896px;
     height: 504px;
     position: absolute;
-    left: 750px;
+    left: 800px;
     top: 25px;
 }
 .photo2{
     width: 700px;
     height: 504px;
     position: absolute;
-    top: 529px;
+    top: 25px;
+    right: 25px;
 }
 .photo3{
     width: 700px;
@@ -38,14 +49,18 @@ font-family: 'Noto Sans Kawi', sans-serif; */
     height: 504px;
     position: absolute;
     top: 25px;
-    left: 25px;}
+    left: 25px;
+}
 .photo5{
-    position: absolute;
+    width: 504px;
 
+    position: absolute;
+    right: 25px;
 }
 .photo6{
+    width: 504px;
     position: absolute;
-
+    left: 25px;
 }
 /* .photos{
     display: flex;
