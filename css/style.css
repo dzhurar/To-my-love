@@ -10,7 +10,7 @@ body{
     margin-top: 550px;
 }
 .main{
-    padding-bottom: 100px;
+    padding-bottom: 1000px;
 }
 .text{
     font-family: 'Kurale', serif;
@@ -42,7 +42,8 @@ font-family: 'Noto Sans Kawi', sans-serif; */
     width: 700px;
     height: 504px;
     position: absolute;
-    top: 554px;
+    right: 300px;
+    top: 1251px;
 }
 .photo4{
     width: 700px;
@@ -53,7 +54,6 @@ font-family: 'Noto Sans Kawi', sans-serif; */
 }
 .photo5{
     width: 504px;
-
     position: absolute;
     right: 25px;
 }
@@ -61,6 +61,13 @@ font-family: 'Noto Sans Kawi', sans-serif; */
     width: 504px;
     position: absolute;
     left: 25px;
+}
+.photo7{
+    width: 700px;
+    height: 504px;
+    position: absolute;
+    left: 300px;
+    top: 1251px;
 }
 /* .photos{
     display: flex;
